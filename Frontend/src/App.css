@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+@theme {
+  --font-sans: 'Poppins', sans-serif;
+
+  /* Warna Login/Register */
+  --color-simig-light: #1586FF;
+  --color-simig-dark: #0D5099;
+  --color-simig-btn: #0D5099;
+
+  /* Warna Beranda */
+  --color-simig-sidebar: #242935;
+  --color-simig-active: #1B1F29;
+  --color-simig-input: #323846;
+  --color-simig-text: #A0AEC0;
+
+  /* Warna Chart Laporan */
+  --color-simig-green: #22C55E;
+  --color-simig-red: #EF4444;
+  --color-simig-yellow: #FACC15;
+}
