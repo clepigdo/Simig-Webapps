@@ -22,4 +22,4 @@ COPY . .
 RUN python manage.py collectstatic --noinput
 
 # Jalankan Gunicorn (Server Production)
-CMD ["gunicorn", "backend.wsgi:application", "--bind", "0.0.0.0:$PORT"]
+CMD gunicorn backend.wsgi:application --bind 0.0.0.0:$PORT
